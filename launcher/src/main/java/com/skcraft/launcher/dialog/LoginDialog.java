@@ -45,8 +45,8 @@ public class LoginDialog extends JDialog {
     private final JCheckBox rememberPassCheck = new JCheckBox(SharedLocale.tr("login.rememberPassword"));
     private final JButton loginButton = new JButton(SharedLocale.tr("login.login"));
     private final LinkButton recoverButton = new LinkButton(SharedLocale.tr("login.recoverAccount"));
-    private final JButton off_update = new JButton("Einstellungen & Spielen");
-    private final JButton offlineButton = new JButton("Spielen");
+    //private final JButton off_update = new JButton(SharedLocale.tr("login.playNonPremiumForceUpdate"));
+    private final JButton offlineButton = new JButton(SharedLocale.tr("login.playNonPremium"));
     private final JButton cancelButton = new JButton(SharedLocale.tr("button.cancel"));
     private final FormPanel formPanel = new FormPanel();
     private final LinedBoxPanel buttonsPanel = new LinedBoxPanel(true);
