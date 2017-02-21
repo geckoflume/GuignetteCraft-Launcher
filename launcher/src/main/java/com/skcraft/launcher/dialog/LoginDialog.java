@@ -111,7 +111,7 @@ public class LoginDialog extends JDialog {
         //buttonsPanel.addElement(recoverButton);
         buttonsPanel.addGlue();
         buttonsPanel.addElement(offlineButton);
-        buttonsPanel.addElement(off_update);
+        //buttonsPanel.addElement(off_update);
         // buttonsPanel.addElement(loginButton);
         buttonsPanel.addElement(cancelButton);
 
@@ -145,7 +145,7 @@ public class LoginDialog extends JDialog {
                 prepareLogin();
             }
         });
-
+        /*
         off_update.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -159,7 +159,7 @@ public class LoginDialog extends JDialog {
                 }
             }
         });
-
+		*/
         offlineButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
