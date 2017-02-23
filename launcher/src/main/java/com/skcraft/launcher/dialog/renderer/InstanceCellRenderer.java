@@ -20,8 +20,8 @@ public class InstanceCellRenderer extends DefaultListCellRenderer {
     private final Icon downloadIcon;
 
     public InstanceCellRenderer() {
-        instanceIcon = SwingHelper.createIcon(Launcher.class, "instance_icon.png", 16, 16);
-        customInstanceIcon = SwingHelper.createIcon(Launcher.class, "custom_instance_icon.png", 16, 16);
+        instanceIcon = SwingHelper.createIcon(Launcher.class, "icon.png", 16, 16);
+        customInstanceIcon = SwingHelper.createIcon(Launcher.class, "icon128.png", 16, 16);
         downloadIcon = SwingHelper.createIcon(Launcher.class, "download_icon.png", 14, 14);
     }
 
